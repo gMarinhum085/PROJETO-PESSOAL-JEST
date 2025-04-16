@@ -1,0 +1,12 @@
+const calcular = require('./src/calculadora')
+
+console.log(calcular.soma(1,2))
+console.log(calcular.subtrai(1,2))
+console.log(calcular.multiplica(1,2))
+console.log(calcular.divide(4,2))
+console.log(calcular.ehPar(4))
+console.log(calcular.potencia(4,2))
+console.log(calcular.raizQuadrada(4,2))
+console.log(calcular.restoDaDivisao(4,2))
+console.log(calcular.absoluto(4,2))
+console.log(calcular.inverterSinal(4,2))
